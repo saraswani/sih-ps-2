@@ -1,0 +1,17 @@
+{
+  "name": "mospi-skill-intelligence-platform",
+  "version": "1.0.0",
+  "description": "AI-Enabled Skill Intelligence & Learning Platform for MoSPI (SIH26101)",
+  "main": "server/index.js",
+  "scripts": {
+    "setup": "npm install && cd server && npm install && cd ../client && npm install",
+    "seed": "cd server && node seed.js",
+    "build": "cd server && npm install && cd ../client && npm install && npm run build",
+    "start": "cd server && node index.js",
+    "server": "cd server && node index.js",
+    "client": "cd client && npm run dev"
+  },
+  "keywords": ["mospi", "sih2026", "igot-karmayogi", "skill-gap", "ai-quiz-generator"],
+  "author": "MoSPI SIH Team",
+  "license": "ISC"
+}
